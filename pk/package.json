@@ -1,0 +1,24 @@
+{
+  "name": "pk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "https": "^1.0.0",
+    "json": "^9.0.6",
+    "lodash": "^4.17.15",
+    "omdb": "^0.8.0",
+    "omdbapi": "^3.0.0",
+    "path": "^0.12.7",
+    "utils": "^0.3.1"
+  }
+}
