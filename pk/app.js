@@ -75,6 +75,6 @@ app.post("/", function(req, response) {
 
 
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("Running at 3000");
 })
