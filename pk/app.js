@@ -41,7 +41,7 @@ app.post("/", function(req, response) {
       id: query,
       plot: 'full'
     }).then(res1 => {
-      console.log('got response:', res1);
+      // console.log('got response:', res1);
       year = res1.released;
       rate = res1.rated;
       imdb = res1.imdbrating;

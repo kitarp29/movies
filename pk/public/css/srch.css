@@ -1,6 +1,47 @@
 html {
+  text-align: center;
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(35deg, #0466C8 30%, #000000 70%);
   min-height: 1000px;
   font-family: 'helvetica neue';
+}
+.head{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  color: white;
+  padding: 0px 0px;
+}
+.poster{
+  border-radius: 16px;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+
+}
+.link
+{
+  color:inherit;
+  display:inline-block;
+  font-family: 'Sigmar One', cursive;
+}
+.general{
+  font-size: 15px;
+  color:white;
+  font-family: 'Play', sans-serif;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color:white;
+text-decoration: underline;
+text-shadow: 5px;
+}
+.rate{
+  font-size: 15px;
+  color:white;
+  font-family: 'Play', sans-serif;
+}
+.plot{
+  font-family: 'Play', sans-serif;
+  color:white;
+text-align: justify;
+padding: 0px 150px 10px 150px;
 }

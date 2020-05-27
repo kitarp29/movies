@@ -8,28 +8,51 @@
   "https://w7.pngwing.com/pngs/257/192/png-transparent-popcorn-popcorn-food-smiley-cartoon.png"
     type = "image/x-icon">
   <link rel="stylesheet" href="css/srch.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1><%=naam%></h1>
-  <img src="<%=pic%>">
-  <br>
-  <a href="https://www.imdb.com/title/<%=link%>/">Imdb_page</a>
-  <br>
-  <p>release Date: <%=saal%></p>
-  <p>Runtime:<%=time%></p>
-  Rated:<%=rate%>
-  <hr>
-  <h2>Critics Ratings</h2>
-  Imdb ratings=<%=imdb%>/10<br>
-  Metascore=<%=ms%>/100 <br>
-  Awards-<%=a%>
+  <div class="head">
+    <h1><%=naam%></h1>
+  </div>
+<div >
+  <img src="<%=pic%>" class="poster">
+</div>
+<div class="general">
+  <br><br>
+  Release date:  <%=saal%><br>
+  Runtime:  <%=time%><br>
+  Rated:  <%=rate%>
 
-  <hr>
-  Plot-
-  <br>
-  <%=plot%>
+</div>
 
+<div class="critic">
+  <h2>Critics' Ratings</h2>
+  <div class="rate">
+    Imdb ratings:  <%=imdb%>/10<br>
+    Metascore:  <%=ms%>/100 <br>
+    Awards:  <%=a%>
+  </div>
+
+</div>
+
+<div >
+  <h2>Plot</h2>
+  <div class="plot">
+    <%=plot%>
+  </div>
+
+</div>
+
+
+<br>
+<div>
+    <a href="https://www.imdb.com/title/<%=link%>/" class="link">Imdb_page</a>
+</div>
 </body>
 
 </html>
