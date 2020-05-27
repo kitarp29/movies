@@ -9,6 +9,7 @@
         transform: translateX(-50%) translateZ(0) scaleY(1)
     }
 }
+
 .waveWrapper {
     overflow: hidden;
     position: absolute;
@@ -66,4 +67,50 @@
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
+}
+
+/* yha se mera h */
+.Heading{
+  font-family: 'Pacifico', cursive;
+  font-size:80px;
+  color :#ffff;
+  padding: 150px 30px 30px 30px;
+
+}
+
+html{
+ text-align: center;
+}
+
+#movieinput{
+  text-align: center;
+      border-radius: 25px;
+      border: 2px solid #609;
+      padding: 30px ;
+      width: 350px;
+      height: 15px;
+       text-align: center;
+      font-size: 30px;
+      margin: 30px 30px 30px 30px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.search{
+  text-align: center;
+  hieght: 50px;
+  width: 30 px;
+}
+.form{
+  text-align: center;
+  display: block;
+}
+#bkchdi{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: white;
+}
+#nav{
+    color: white;
+    font-size: 20px;
+    text-align: left;
 }

@@ -30,7 +30,7 @@ app.post("/", function(req, response) {
   omdb.search({
     search: query, // required
   }).then(res => {
-    console.log('got response:', res[0]);
+    // console.log('got response:', res[0]);
     query = res[0].imdbid;
     naam = res[0].title;
     pic = res[0].poster;
