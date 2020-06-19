@@ -16,6 +16,7 @@
 </head>
 
 <body>
+<h5><a href="/" class="home">Home</a></h5> 
   <div class="head">
     <h1><%=naam%></h1>
   </div>
@@ -51,8 +52,22 @@
 
 <br>
 <div>
-    <a href="https://www.imdb.com/title/<%=link%>/" class="link">Imdb_page</a>
+      <h3><a href="https://www.imdb.com/title/<%=link%>/" class="link">
+  Imdb_page </a></h3>
 </div>
+<hr>
+<h2>Similar Movies</h2>
+<h3>Tap on the Poster to search the movies page</h3>
+ <br>
+
+
+<% Object.keys(others).forEach(function(key) { %>
+  <a href="https://www.imdb.com/title/<%= others[key].imdbid%>"><img class="extra" src="<%= others[key].poster%>" alt=""></a>
+
+<% }) %>
+
+
+
 </body>
 
 </html>

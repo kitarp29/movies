@@ -45,3 +45,16 @@ text-shadow: 5px;
 text-align: justify;
 padding: 0px 150px 10px 150px;
 }
+.extra{
+  height: 200px;
+  width:150px;
+  padding: 10px 10px 10px 10px;
+}
+h5{
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color:white;
+text-decoration: underline;
+text-shadow: 5px;
+}
